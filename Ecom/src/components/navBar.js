@@ -49,13 +49,21 @@ function NavBar() {
             </div>
             <div className="navbar-box">
                 <div className="menu-appear">
-                    <Link to={!user ? ("/register") : ("/")}  style={{"textDecoration": "none"}}>
-                        <div className="right-nav login">{!user ? ("Register") : (`Hello, ${name}`)}</div>
-                    </Link>
+                    
+                        <div >
+                            <Link to={!user ? ("/register") : ("/")}  style={{"textDecoration": "none"}} className="right-nav login">
+                                {!user ? ("Register") : (`Hello, ${name}`)}
+                            </Link>
+                            </div>
+                    
                     {!user ?
-                    <Link to="/login" style={{"textDecoration": "none"}}>
-                        <div className="right-nav login">Sign In</div>
-                    </Link> : <div className="right-nav login" onClick={() => window.location.reload()}>Sign Out</div>}
+                    
+                        <div >
+                            <Link to="/login" style={{"textDecoration": "none"}} className="right-nav login">
+                                Sign In
+                            </Link>
+                        </div>
+                     : <div className="right-nav login" onClick={() => window.location.reload()}>Sign Out</div>}
 
                     <span className="close-menu" onClick={show}><i className='bx bx-x'></i></span>
                 </div>
