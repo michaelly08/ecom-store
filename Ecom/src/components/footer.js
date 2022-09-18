@@ -23,7 +23,7 @@ const Footer = () => {
                     </div>
                     <div className="footer-useful-links">
                         <Link to="/cart" style={{"textDecoration": "none", "padding" : "0" , "margin": "0", "color": "black"}}>
-                        <div className="linked" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Cart</div>
+                        <div className="linked" onClick={() => window.scrollTo({top: 0})}>Cart</div>
                         </Link>
                     </div>
                     <div className="footer-useful-links">

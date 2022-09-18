@@ -14,7 +14,7 @@ const Product = ({item}) => {
                 <div className="popular-product-icons">
                     <i className='bx bx-heart' ></i>
                 </div>
-                <Link to={`/product/${item._id}`} style={{"textDecoration": "none"}} onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="popular-product-icons">
+                <Link to={`/product/${item._id}`} style={{"textDecoration": "none"}} onClick={() => window.scrollTo({top: 0})} className="popular-product-icons">
                     <div >
                         <i className='bx bx-cart'></i>
                     </div>

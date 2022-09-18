@@ -15,7 +15,7 @@ const Categories = () => {
                     <div className="categories-info">
                         <div>Pants</div>
                         <Link to="/products/Pants">
-                            <button onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>SHOP NOW</button>
+                            <button onClick={() => window.scrollTo({top: 0})}>SHOP NOW</button>
                         </Link>
                     </div>
                 </div>
@@ -28,7 +28,7 @@ const Categories = () => {
                     <div className="categories-info">
                         <div>Shirts</div>
                         <Link to="/products/Shirts">
-                            <button onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>SHOP NOW</button>
+                            <button onClick={() => window.scrollTo({top: 0})}>SHOP NOW</button>
                         </Link>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const Categories = () => {
                     <div className="categories-info">
                         <div>Sweaters</div>
                         <Link to="/products/Sweaters">
-                            <button onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>SHOP NOW</button>
+                            <button onClick={() => window.scrollTo({top: 0})}>SHOP NOW</button>
                         </Link>
                     </div>
                 </div>

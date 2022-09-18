@@ -38,7 +38,7 @@ const MainPage = () => {
                     <div className="slide-info-title">SUMMER SALE</div>
                     <div className="slide-info-small-txt">DO NOT MISS OUT 30% OFF ALL SUMMER ITEMS</div>
                     <Link to="/products/All">
-                        <button className="slide-info-button" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>SHOP NOW</button>
+                        <button className="slide-info-button" onClick={() => window.scrollTo({top: 0})}>SHOP NOW</button>
                     </Link>
                 </div>
             </SwiperSlide>
@@ -50,7 +50,7 @@ const MainPage = () => {
                     <div className="slide-info-title">AUTUMN COLLECTION</div>
                     <div className="slide-info-small-txt">DO NOT MISS OUT 30% OFF ALL SUMMER ITEMS</div>
                     <Link to="/products/All">
-                        <button className="slide-info-button" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>SHOP NOW</button>
+                        <button className="slide-info-button" onClick={() => window.scrollTo({top: 0})}>SHOP NOW</button>
                     </Link>
                 </div>
             </SwiperSlide>
@@ -62,7 +62,7 @@ const MainPage = () => {
                     <div className="slide-info-title">NEW ARRIVALS</div>
                     <div className="slide-info-small-txt">DO NOT MISS OUT 30% OFF ALL SUMMER ITEMS</div>
                     <Link to="/products/All">
-                        <button className="slide-info-button" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>SHOP NOW</button>
+                        <button className="slide-info-button" onClick={() => window.scrollTo({top: 0})}>SHOP NOW</button>
                     </Link>
                 </div>
             </SwiperSlide>
