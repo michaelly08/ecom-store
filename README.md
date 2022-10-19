@@ -6,7 +6,6 @@
 - This ecommerce store is buit using Next js.
 - State management is done using Redux.
 - Users can register a new account, login to add products. 
-- User authentication is done using JWT.
 - Once we have added products to the cart, we can checkout using Stripe. (see credentials below)
 
 
